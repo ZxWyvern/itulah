@@ -1,0 +1,145 @@
+<html>
+<head>
+	<meta charset="UTP-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Data Pengunjung</title>
+
+<style>
+	
+	.title {
+	display: flex;
+	justify-content: center; 
+	text-weight: bold;
+	font-size: 20px;
+	}
+	
+	.card {
+		width: 150px;
+		border: 1px solid black;
+		border-radius: 10px;
+		box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+		text-align: center;
+		margin: 5px;
+	}
+	
+	.card-img {
+		width: 100%;
+		height: 100px;
+		object-fit: cover;	
+		border-radius: 8px;
+	}
+	
+	.card-title {
+		font-size: 18px;
+		margin: 10px 0 5px;
+	}
+	
+	.card-subtitle {
+	font-size: 11px;
+	margin: 10px 0 5px;
+	color: #555;
+	}
+	
+	#card-btn {
+	padding: 10px 10px 10px 10px;
+	margin: 5px;
+	border: none;
+	background-color: white;
+	border-radius: 10px;
+	transition: background-color 0.3s;
+	}
+	
+	#card-btn:hover {
+	background-color: blue;
+	color: white;
+	text-weight: bold;
+	}
+	
+	body {
+	margin: 0px;
+	padding: 0px;
+	}
+
+	.ul-container {
+	display: flex;
+	justify-content: space-between;
+	padding: 15px;
+	list-style: none;
+	text-decoration: none;
+	background-color: #ddd;
+	}
+	
+	.ul-container li a {
+	background-color: lightgrey;
+	padding: 10px;
+	text-decoration: none;
+	color: black;
+	}
+	
+	.div-container {
+		display: flex;
+		flex-warp: wrap;
+		gap: 20px;
+		justify-content: center;
+		padding-top: 100px;
+		
+	}
+</style>
+
+</head>
+<body>
+<nav class="navbar">
+	<ul class="ul-container">
+		<h3>AI</h3>
+		<li><a href="#">Berada</a></li>
+		<li><a href="link/wCSS/wCSS.html">Profile</a></li>
+		<li><a href="#">Kontak</a></li>
+		<li><a href="#">Data</a></li>
+	</ul>
+</nav>
+<div class="title">Daftar kunjungan</div>
+
+		<div class="div-container">
+		
+	<div class="card">
+		<img class="card-img" src="Assets/img/potm2406a.jpg">
+		<h3 class="card-title">
+			Potm2406a
+		</h3>
+		<p class="card-subtitle">
+			@JWST
+		</p>
+		
+		<button id="card-btn">
+			Lihat Profile
+		</button>
+	</div>
+		<div class="card">
+		<img class="card-img" src="Assets/img/potm2406a.jpg">
+		<h3 class="card-title">
+			Potm2406a
+		</h3>
+		<p class="card-subtitle">
+			@JWST
+		</p>
+		
+		<button id="card-btn">
+			Lihat Profile
+		</button>
+	</div>
+		<div class="card">
+		<img class="card-img" src="Assets/img/potm2406a.jpg">
+		<h3 class="card-title">
+			Potm2406a
+		</h3>
+		<p class="card-subtitle">
+			@JWST
+		</p>
+		
+		<button id="card-btn">
+			Lihat Profile
+		</button>
+	</div>	
+		</div>
+</body>
+</html>

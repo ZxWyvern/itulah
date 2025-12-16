@@ -1,0 +1,54 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="width=device-width, initial-scale=1.0">
+<title>NAVBAR</title>
+<style>
+	li:hover {
+		color: yellow;
+		cursor: pointer;
+	}
+
+	.nav-links li a{
+	color: #ddd;
+	text-decoration: none;
+	font-size: 16px;
+	transition: 0.3s;
+	
+	background-color: white;
+	color: #007bff;
+	padding: 10px 20px;
+	text-decoration: none;
+	font-weight: bold;
+	border-radius: 5px;
+	}
+	
+	.nav-links li a:hover{
+		background-color: grey;
+		color: white;
+	
+	}
+</style>
+</head>
+<body style="margin: 0; padding: 0;" >
+	<nav style="background-color: blue; display: flex; justify-content: space-between; align-items: center; padding: 5px 50px;" class="navbar">
+	<!-- content kiri -->
+	<div >
+		<h2 style="color: white;">LOGO</h2>
+	</div>
+	<!-- content tengah -->
+	<div>
+		<ul style="display: flex; list-style: none; justify-content: end; color: black;" class="nav-links">
+			<li style="margin-right: 10px; list-style: none; text-decoration: none;"><a>Beranda</a></li>
+			<li style="margin-right: 10px"><a>Jurusan</a></li>
+			<li style="margin-right: 10px"><a>Tentang</a></li>
+			<li><a>Hubungi Kami</a></li>
+		</ul>
+	</div>
+	<!-- content kanan -->
+	<div>
+		<button style="background-color: white; color: blue; border: none; border-radius: 5px; padding: 8px 10px;">Login</button>
+	</div>
+	</nav>
+</body>
+</html>
